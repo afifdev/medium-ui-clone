@@ -1,0 +1,10 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Doulos";
+  src: url("../public/assets/fonts/doulos_sil/DoulosSILR.ttf");
+  font-weight: 400;
+}
