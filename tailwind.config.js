@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     extend: {
       letterSpacing: {
+        tightest: "-.0375em",
         tiny: "-.0175em",
       },
       fontSize: {
@@ -18,5 +19,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 };
