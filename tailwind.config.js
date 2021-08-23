@@ -4,6 +4,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      letterSpacing: {
+        tiny: "-.0175em",
+      },
+      fontSize: {
+        "1.5xl": "1.375rem",
+      },
       fontFamily: {
         doulos: ["Doulos", "serif"],
       },
